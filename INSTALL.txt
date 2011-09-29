@@ -1,0 +1,12 @@
+To install the connectors: 
+
+1. Enter "mvn package" in the project root directory
+
+2. From Bonita Studio, import the following JARs found in the project "target" directories:
+
+	* kayak-connector-[version].jar
+	* kayak-flight-connector-[version].jar
+	* kayak-hotel-connector-[version].jar
+	* http-builder-0.5.1.jar
+	* json-lib-2.3-jdk15.jar
+	* xml-resolved-1.2.jar 
